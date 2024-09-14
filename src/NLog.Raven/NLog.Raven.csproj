@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
@@ -15,18 +15,18 @@
     <PackageTags>NLog;RavenDB</PackageTags>
     <Copyright>Copyright 2022</Copyright>
     <PackageReleaseNotes>
-- Updated to Raven 5 with support for NetStandard 2.0 and Net5.0
-- Added NLog Layout support for options like Urls, Database, CollectionName
+- Updated to Raven ver. 5.2.102 with support for NET6
+- Updated to NLog ver. 4.7.15
     </PackageReleaseNotes>
 
-    <Version>2.0.1.0</Version>
-    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <Version>2.1.0.0</Version>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLog" Version="4.5.11" />
-    <PackageReference Include="RavenDB.Client" Version="5.2.4" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="NLog" Version="4.7.15" />
+    <PackageReference Include="RavenDB.Client" Version="5.2.102" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
